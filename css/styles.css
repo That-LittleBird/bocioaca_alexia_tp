@@ -31,12 +31,171 @@ body{
 COMPONENTS
 ------------------------------------------------------------------------------------------------------------------ */
 
+/* ------- Général ------- */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    font: bold 3rem "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+
+    padding: 45px 0 30px;
+    margin: 0;
+}
+
+h3{
+    font: 2.4rem "Orienta", sans-serif;
+
+    margin: 0;
+}
+
+h5{
+    font: 2.4rem "Sriracha", sans-serif;
+
+    margin: 0;
+}
+
 /* ------- Header ------- */
+
+header{
+    background-color: #6F7292;
+    color: #EBF6FF;
+}
+
+header .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .conteneur{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+
+    padding: 30px 0 30px;
+    margin: 0;
+}
+
+header img{
+    height: 32px;
+    width: 32px;
+}
 
 /* ------- Section Héro ------- */
 
+h1{
+    font: bold 4rem "Nunito Sans", sans-serif;
+    color: #FFF;
+
+    padding: 170px 0 170px;
+    margin: 0;
+}
+
+/* -------Section Bulletin ------- */
+
+.bulletin{
+    background-color: #000;
+    color: #FFF;
+}
+
+.bulletin .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bulletin h5{
+    padding: 50px 0 50px;
+}
+
+.bulletin a{
+    text-transform: uppercase;
+    background-color: #7CD79A;
+
+    padding: 10px 30px 10px 30px;
+}
+
 /* ------- Section Produits ------- */
+
+/* ------- Section Équipe ------- */
+
+.equipe{
+    background-color: #DEDEDE;
+    border-bottom: solid 5px #B291D5;
+    border-top: solid 5px #B291D5;
+}
+
+.equipe .conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.equipe article{
+
+}
+
+.equipe img{
+    border: solid 3px #B291D5;
+}
+
+/* ------- Section Contact ------- */
+
+.contact{
+    background-color: #000;
+    color: #FFF;
+}
 
 /* ------- Footer ------- */
 
-/* ------- Fenêtre Modale ------- */
+footer{
+    background-color: #6F7292;
+    color: #EBF6FF;
+}
+
+footer .conteneur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 75px;
+
+    padding: 50px 0 30px;
+    margin: 0;
+}
+
+footer p{
+
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+footer .material-symbols-outlined{
+    border: solid 3px #EBF6FF;
+    border-radius: 100%;
+
+    height: 42px;
+    width: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
