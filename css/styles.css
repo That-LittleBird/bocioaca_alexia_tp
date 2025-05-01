@@ -63,6 +63,8 @@ h5{
 header{
     background-color: #6F7292;
     color: #EBF6FF;
+    position: sticky;
+    top: 0;
 }
 
 header .wrapper{
@@ -129,6 +131,25 @@ h1{
 
 /* ------- Section Produits ------- */
 
+.produits{
+    background-color: #FFF;
+}
+
+.produits .conteneur{
+    display: flex;
+    gap: 15px;
+}
+
+.produits h3{
+    text-transform: uppercase;
+
+    padding: 20px 0 30px;
+}
+
+.produits img{
+    border: solid 3px #3CA6A0;
+}
+
 /* ------- Section Équipe ------- */
 
 .equipe{
@@ -143,12 +164,21 @@ h1{
     gap: 20px;
 }
 
-.equipe article{
+.equipe h2, .equipe h3, .equipe p{
+    text-align: center;
 
+    margin: 0;
+}
+
+.equipe article p{
+    padding-bottom: 40px;
 }
 
 .equipe img{
     border: solid 3px #B291D5;
+    width: 100%;
+
+    margin: 30px 0 40px;
 }
 
 /* ------- Section Contact ------- */
@@ -157,6 +187,24 @@ h1{
     background-color: #000;
     color: #FFF;
 }
+
+.contact h2{
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.contact a{
+    background-color: #7CD79A;
+
+    padding: 15px 35px 15px 35px;
+
+    margin-bottom: 50px;
+}
+
+
 
 /* ------- Footer ------- */
 
