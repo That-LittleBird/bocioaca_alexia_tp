@@ -38,6 +38,17 @@ a{
     color: inherit;
 }
 
+.bouton{
+    background-color: #7CD79A;
+    color: #FFF;
+}
+
+.bouton:hover{
+    background-color: inherit;
+    color: #7CD79A;
+    border: solid 2px #7CD79A;
+}
+
 h2{
     font: bold 3rem "Nunito Sans", sans-serif;
     text-transform: uppercase;
@@ -97,9 +108,14 @@ header img{
 
 /* ------- Section Héro ------- */
 
+.hero{
+    background: url(../images/hero.jpg) center/cover;
+}
+
 h1{
     font: bold 4rem "Nunito Sans", sans-serif;
     color: #FFF;
+    text-align: center;
 
     padding: 170px 0 170px;
     margin: 0;
@@ -124,7 +140,6 @@ h1{
 
 .bulletin a{
     text-transform: uppercase;
-    background-color: #7CD79A;
 
     padding: 10px 30px 10px 30px;
 }
@@ -148,6 +163,10 @@ h1{
 
 .produits img{
     border: solid 3px #3CA6A0;
+}
+
+.produits .bouton{
+    padding: 15px 40px 15px 40px;
 }
 
 /* ------- Section Équipe ------- */
@@ -197,11 +216,7 @@ h1{
 }
 
 .contact a{
-    background-color: #7CD79A;
-
     padding: 15px 35px 15px 35px;
-
-    margin-bottom: 50px;
 }
 
 
