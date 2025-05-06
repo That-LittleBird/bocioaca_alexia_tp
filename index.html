@@ -32,16 +32,16 @@ Header
     <header>
         <div class="wrapper">
 
-            <div class="conteneur">
+            <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="logo de la compagnie Denkiāto">
 
                 <p> Denkiāto </p>
-            </div>
+            </a>
 
             <nav>
                 <ul>
-                    <li><a href=""> Accueil </a></li>
-                    <li><a href=""> Les Offres </a></li>
+                    <li><a href="index.html"> Accueil </a></li>
+                    <li><a href="liste-articles.html"> Les Offres </a></li>
                     <li><a href="#equipe"> Équipes </a></li>
                     <li><a href="#contact"> Contact </a></li>
                 </ul>
@@ -83,27 +83,27 @@ Section Produits
             <h2> Produits Recommandés </h2>
 
             <div class="conteneur">
-                <a href=""> Tous </a>
-                <a href=""> Tablettes </a>
-                <a href=""> PC </a>
-                <a href=""> Accessoires </a>
+                <a href="liste-articles.html"> Tous </a>
+                <a href="liste-articles.html"> Tablettes </a>
+                <a href="liste-articles.html"> PC </a>
+                <a href="liste-articles.html"> Accessoires </a>
             </div>
 
             <div class="conteneur">
                 <article>
-                    <img src="images/tablette1.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/tablette1.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/tablette2.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/tablette2.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/tablette3.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/tablette3.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/tablette4.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/tablette4.jpg" alt=""></a>
                 </article>
             </div>
 
@@ -111,25 +111,25 @@ Section Produits
 
             <div class="conteneur">
                 <article>
-                    <img src="images/ecran1.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/ecran1.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/ecran2.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/ecran2.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/ecran3.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/ecran3.jpg" alt=""></a>
                 </article>
 
                 <article>
-                    <img src="images/ecran4.jpg" alt=""><a href=""></a></img>
+                    <a href="fiche-article.html"><img src="images/ecran4.jpg" alt=""></a>
                 </article>
             </div>
 
             <h3> Écrans à Stylet </h3>
 
-            <a href="" class="bouton"> Voir tous les produits </a>
+            <a href="liste-articles.html" class="bouton"> Voir tous les produits </a>
             
         </div>
     </section>    
@@ -146,7 +146,7 @@ Section Équipe
 
             <div class="conteneur">
                 <article>
-                    <img src="images/aika.jpg" alt="">
+                    <img src="images/aika.jpg" alt="" class="personne">
 
                     <h3> Aika Nakamura </h3>
 
@@ -154,7 +154,7 @@ Section Équipe
                 </article>
 
                 <article>
-                    <img src="images/annabelle.jpg" alt="">
+                    <img src="images/annabelle.jpg" alt="" class="personne">
 
                     <h3> Annabelle Velnoweth </h3>
 
@@ -162,7 +162,7 @@ Section Équipe
                 </article>
 
                 <article>
-                    <img src="images/laurent.jpg" alt="">
+                    <img src="images/laurent.jpg" alt="" class="personne">
 
                     <h3> Laurent Barbier </h3>
 
@@ -186,10 +186,11 @@ Section Contact
         <p> Canada </p>
         <p> Tel: +1 (726)-784-5277 </p>
 
-        <a href="" class="bouton"> Envoyer Un Courriel </a>
-        
-        <img src="images/carte.jpg" alt="">
+        <a href="mailto:Denkiato@gmail.com" class="bouton"> Envoyer Un Courriel </a>    
     </div>
+
+    <div class="carte"><img src="images/pointeur.png" alt="pointeur"></div>
+    
 </section>
 
 <!-- ------------------------------------------------------------------------------------------------------------------
@@ -201,11 +202,11 @@ Footer
 
             <nav>
                 <ul>
-                    <li><a href="https://www.youtube.com/"><img src="images/youTube_inactif.png" alt=""></a></li>
-                    <li><a href="https://www.facebook.com/"><img src="images/facebook_inactif.png" alt=""></a></li>
-                    <li><a href="https://www.instagram.com/"><img src="images/instagram_inactif.png" alt=""></a></li>
-                    <li><a href="https://www.tumblr.com/"><img src="images/tumblr_inactif.png" alt=""></a></li>
-                    <li><a href="https://fr.linkedin.com/"><img src="images/linkedin_inactif.png" alt=""></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/"></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/"></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/"></a></li>
+                    <li class="tumblr"><a href="https://www.tumblr.com/"></a></li>
+                    <li class="linkedin"><a href="https://fr.linkedin.com/"></a></li>
                 </ul>
             
                 <a href="#hero"> <span class="material-symbols-outlined"> arrow_upward </span> </a>
@@ -215,6 +216,12 @@ Footer
             
         </div>
     </footer>
+
+<!-- ------------------------------------------------------------------------------------------------------------------
+Fenêtre modale
+------------------------------------------------------------------------------------------------------------------- -->
+
+    <div class="modale"></div>
 
 </body>
 </html>
