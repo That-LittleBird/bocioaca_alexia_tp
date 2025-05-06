@@ -41,6 +41,7 @@ a{
 .bouton{
     background-color: #7CD79A;
     color: #FFF;
+    border: solid 2px #7CD79A;
 }
 
 .bouton:hover{
@@ -64,7 +65,7 @@ h3{
 }
 
 h5{
-    font: 2.4rem "Sriracha", sans-serif;
+    font: 600 2.4rem "Oswald", sans-serif;
 
     margin: 0;
 }
@@ -228,7 +229,7 @@ footer{
     color: #EBF6FF;
 }
 
-footer .conteneur{
+footer nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,16 +240,25 @@ footer ul{
 
     display: flex;
     justify-content: flex-start;
-    gap: 75px;
+    gap: 35px;
 
     padding: 50px 0 30px;
     margin: 0;
 }
 
 footer p{
-
     margin: 0;
     padding-bottom: 50px;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+}
+
+footer img[src~="youtube"]{
+    background-image: url(../images/youTube_actif.png);
+    background-color: #000;
 }
 
 footer .material-symbols-outlined{
