@@ -6,7 +6,7 @@ for (let i = 0; i < personne.length; i++){
 }
 
 function openModale(){
-    const chemin = this.getAttribute("src");
+    const chemin = this.Element.children.getAttribute("src"); hm
     const image = document.createElement('img');
     image.setAttribute('src', chemin);
     image.classList.add('zoom');
