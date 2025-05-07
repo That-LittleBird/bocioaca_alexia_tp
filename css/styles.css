@@ -244,7 +244,7 @@ h1{
 
 .carte{
     background: url(../images/carte.jpg) no-repeat center/cover;
-    min-height: 508px;
+    height: 508px;
 
     position: relative;
 }
@@ -348,6 +348,11 @@ footer .material-symbols-outlined{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer .material-symbols-outlined:hover{
+    border: solid 3px #AEFAF6;
+    color: #AEFAF6;
 }
 
 /* ------- Fenêtre Modale ------- */
