@@ -400,15 +400,65 @@ COMPONENTS PAGE ARTICLES
 .produit article{
     display: flex;
     gap: 40px;
+    align-items: center;
+}
+
+.produit article .conteneur .conteneur{
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 40px;
+}
+
+.produit article a{
+    padding: 10px 30px 10px 30px;
+}
+
+.produit article img{
+    width: 3000px;
+    height: 100%;
+    border: solid 5px #B291D5;
 }
 
 .produit aside{
     text-align: center;
+    border-top: solid 3px #3CA6A0;
 }
 
 .produit aside .conteneur{
     display: flex;
     gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produit aside img{
+    width: 100%;
+    height: 500px;
+}
+
+.produit aside .material-symbols-outlined{
+    font-size: 5rem;
+
+    background-color: #DEDEDE;
+    border: solid 3px #000000;
+    border-radius: 100%;
+
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produit aside .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding: 20px 0 30px;
 }
 
 /* ------- Section Produits Simulaire ------- */
@@ -416,3 +466,24 @@ COMPONENTS PAGE ARTICLES
 .simulaire{
     background-color: #DEDEDE;
 }
+
+.simulaire .conteneur{
+    display: flex;
+    gap: 30px;
+
+    padding-bottom: 30px;
+}
+
+.simulaire img{
+    border: solid 3px #3CA6A0;
+    width: 100%;
+}
+
+.simulaire .bouton{
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
