@@ -44,14 +44,17 @@ a{
     border: solid 2px #7CD79A;
 }
 
-.produits .bouton, .contact .bouton{
-    margin-bottom: 45px;
-}
-
 .bouton:hover{
     background-color: inherit;
     color: #7CD79A;
     border: solid 2px #7CD79A;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 45px;
 }
 
 h2{
@@ -175,6 +178,12 @@ h1{
     padding: 20px 0 30px;
 }
 
+.produit article{
+    position: relative;
+}
+
+
+
 .produits img{
     border: solid 3px #3CA6A0;
 }
@@ -233,8 +242,12 @@ h1{
     text-align: center;
 }
 
-.contact a{
+.contact .bouton{
     padding: 15px 35px 15px 35px;
+}
+
+.contact .btn{
+    padding-top: 30px;
 }
 
 .carte{
@@ -527,7 +540,6 @@ COMPONENTS PAGE ARTICLES
 
 .simulaire .bouton{
     padding: 10px 20px 10px 20px;
-    margin-bottom: 20px;
 
     display: flex;
     justify-content: center;
