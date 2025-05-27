@@ -16,7 +16,7 @@ Head
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orienta&family=Oswald:wght@600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
-    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
 
     <link rel="stylesheet" href="css/styles.css">
 
@@ -31,20 +31,20 @@ Header
 
 <body>
     <header>
-        <div class="wrapper">
+        <div class="wrapper" id="haut">
 
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="logo de la compagnie Denkiāto">
 
-                <p> Denkiāto </p>
+                <p class="hvr-underline-from-center"> Denkiāto </p>
             </a>
 
             <nav>
                 <ul>
-                    <li><a href="index.html" class="hvr-overline-from-left hvr-underline-from-right"> Accueil </a></li>
-                    <li><a href="liste-articles.html"> Les Offres </a></li>
-                    <li><a href="#equipe"> Équipes </a></li>
-                    <li><a href="#contact"> Contact </a></li>
+                    <li><a href="index.html" class="hvr-underline-from-center"> Accueil </a></li>
+                    <li><a href="liste-articles.html" class="hvr-underline-from-center"> Les Offres </a></li>
+                    <li><a href="#equipe" class="hvr-underline-from-center"> Équipes </a></li>
+                    <li><a href="#contact" class="hvr-underline-from-center"> Contact </a></li>
                 </ul>
             </nav>
         </div>
@@ -54,7 +54,7 @@ Header
 Héro
 ------------------------------------------------------------------------------------------------------------------- -->
 
-    <section class="hero" id="hero">
+    <section class="hero">
         <div class="wrapper">
             <h1> Graphisme à un nouveau niveau </h1>
         </div>
@@ -82,61 +82,128 @@ Section Produits
             <div class="liens">
                 <a href="liste-articles.html "> Tous </a>
                 <p> / </p>
-                <a href="liste-articles.html"> Tablettes </a>
+                <a href="liste-articles.html"> Tablettes à Stylets </a>
                 <p> / </p>
-                <a href="liste-articles.html"> PC </a>
+                <a href="liste-articles.html"> Tablettes à Écrans </a>
                 <p> / </p>
                 <a href="liste-articles.html"> Accessoires </a>
             </div>
 
+<!-- ---------------
+Produits Tablettes à Stylet
+--------------- -->
+
             <div class="conteneur">
-                <article>
-                    <a href="fiche-article.html"><img src="images/tablette1.jpg" alt=""></a>
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
 
-                    <div class="overlay">
+                        <img src="images/tablette1.jpg" alt="Tablette avec Stylet">
 
-                    </div>
-                </article>
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Inkor J2 </h3>
+                            <p class="ih-zoom-in ih-delay-md"> La base des bases </p>
+                            <p class="ih-zoom-in ih-delay-md"> 20.99$ </p>
+                        </figcaption>
+                    </figure>
+                </a>                
+                
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/tablette2.jpg" alt=""></a>
-                </article>
+                        <img src="images/tablette2.jpg" alt="Tablette avec Stylet">
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/tablette3.jpg" alt=""></a>
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Lin 56t </h3>
+                            <p class="ih-zoom-in ih-delay-md"> Simple à utiliser </p>
+                            <p class="ih-zoom-in ih-delay-md"> 32.52$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
 
-                    <div class="overlay">
-                        <div class="h4"> Int 2 M </div>
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
 
-                        <div class="text"> Petite tablette confortable et portable </div>
+                        <img src="images/tablette3.jpg" alt="Tablette avec Stylet">
 
-                        <div class="text"> 25.99$ </div>
-                    </div>
-                </article>
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Int 2 M </h3>
+                            <p class="ih-zoom-in ih-delay-md"> Petite tablette confortable et portable </p>
+                            <p class="ih-zoom-in ih-delay-md"> 25.99$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/tablette4.jpg" alt=""></a>
-                </article>
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
+
+                        <img src="images/tablette4.jpg" alt="Tablette avec Stylet">
+                        
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Inkor J4 </h3>
+                            <p class="ih-zoom-in ih-delay-md"> Parfait pour les débutants </p>
+                            <p class="ih-zoom-in ih-delay-md"> 35,12$  </p>
+                        </figcaption>
+                    </figure>
+                </a>
             </div>
-
             <h3> Tablettes à Stylet </h3>
 
+<!-- ---------------
+Produits Tablettes à Écrans
+--------------- -->
+
             <div class="conteneur">
-                <article>
-                    <a href="fiche-article.html"><img src="images/ecran1.jpg" alt=""></a>
-                </article>
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/ecran2.jpg" alt=""></a>
-                </article>
+                        <img src="images/ecran1.jpg" alt="Tablette avec Écran">
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/ecran3.jpg" alt=""></a>
-                </article>
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm"> Int 2 M </h3>
+                            <p class="ih-zoom-in ih-delay-md"> Comme vos vrai tablette </p>
+                            <p class="ih-zoom-in ih-delay-md"> 52.99$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
 
-                <article>
-                    <a href="fiche-article.html"><img src="images/ecran4.jpg" alt=""></a>
-                </article>
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
+
+                        <img src="images/ecran2.jpg" alt="Tablette avec Écran">
+
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Int 2 M </h3>
+                            <p class="ih-zoom-in ih-delay-md"> La plus grande qualité </p>
+                            <p class="ih-zoom-in ih-delay-md"> 230.68$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
+
+                        <img src="images/ecran3.jpg" alt="Tablette avec Écran">
+
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Int 2 M </h3>
+                            <p class="ih-zoom-in ih-delay-md"> L'efficacité dans tes mains </p>
+                            <p class="ih-zoom-in ih-delay-md"> 56.50$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="fiche-article.html">
+                    <figure class="imghvr-fade">
+
+                        <img src="images/ecran4.jpg" alt="Tablette avec Écran">
+
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm "> Int 2 M </h3>
+                            <p class="ih-zoom-in ih-delay-md"> Agreable et compact </p>
+                            <p class="ih-zoom-in ih-delay-md"> 103,64$ </p>
+                        </figcaption>
+                    </figure>
+                </a>
             </div>
 
             <h3> Écrans à Stylet </h3>
@@ -159,27 +226,27 @@ Section Équipe
 
             <div class="conteneur">
                 <article class="personne">
-                    <img src="images/aika.jpg" alt="">
+                    <img src="images/aika.jpg" alt="Fondatrice">
 
                     <h3> Aika Nakamura </h3>
 
-                    <p> Fondatrice </p>
+                    <p class="titre"> Fondatrice </p>
                 </article>
 
                 <article class="personne">
-                    <img src="images/annabelle.jpg" alt="">
+                    <img src="images/annabelle.jpg" alt="Directrice Commercial">
 
                     <h3> Annabelle Velnoweth </h3>
 
-                    <p> Directrice Commercial </p>
+                    <p class="titre"> Directrice Commercial </p>
                 </article>
 
                 <article class="personne">
-                    <img src="images/laurent.jpg" alt="">
+                    <img src="images/laurent.jpg" alt="Technicien Informatique">
 
                     <h3> Laurent Barbier </h3>
 
-                    <p> Technicien Informatique  </p>
+                    <p class="titre"> Technicien Informatique  </p>
                 </article>
             </div>
 
@@ -224,7 +291,7 @@ Footer
                     <li class="linkedin hvr-radial-out"><a href="https://fr.linkedin.com/" target="_blank"></a></li>
                 </ul>
             
-                <a href="#hero"> <span class="material-symbols-outlined"> arrow_upward </span> </a>
+                <a href="#haut"> <span class="material-symbols-outlined"> arrow_upward </span> </a>
             </nav>
             
             <p> © 2021 TIM. Tous droits réservés. </p>
@@ -236,7 +303,9 @@ Footer
 Fenêtre modale
 ------------------------------------------------------------------------------------------------------------------- -->
 
-    <div class="modale"></div>
+    <div class="modaleBoîte">   
+        <div class="modale"></div>
+    </div>
 
 </body>
 </html>

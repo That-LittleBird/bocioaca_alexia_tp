@@ -77,6 +77,14 @@ h5{
     margin: 0;
 }
 
+figcaption{
+    padding: 30px;
+}
+
+figcaption p{
+    margin-top: 0;
+}
+
 /* ------- Header ------- */
 
 header{
@@ -113,10 +121,13 @@ header img{
     width: 32px;
 }
 
+header nav a, header .logo p{
+    border-bottom: solid 1px #6F7292;
+}
+
 header nav a:hover, header .logo:hover p{
     color: #AEFAF6;
     border-bottom: solid 1px #AEFAF6;
-    border-top: solid 1px #AEFAF6;
 
     padding: 5px 0 5px;
 }
@@ -169,6 +180,7 @@ h1{
 .produits .liens{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .produits .conteneur{
@@ -235,6 +247,7 @@ h1{
 .contact{
     background-color: #000;
     color: #FFF;
+    padding-bottom: 50px;
 }
 
 .contact h2{
@@ -368,7 +381,7 @@ footer .material-symbols-outlined:hover{
 
 /* ------- Fenêtre Modale ------- */
 
-.modale{
+.modaleBoîte{
     position: fixed;
     top: 0;
     left: 0;
@@ -382,13 +395,23 @@ footer .material-symbols-outlined:hover{
     align-items: center;
 }
 
+.modale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 50px;
+}
+
 .visible{
     display: flex;
 }
 
 .zoom{
-    width: 620px;
-    height: 620px;
+    width: 500px;
+    height: 500px;
+    padding-bottom: 20px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------
@@ -408,7 +431,7 @@ COMPONENTS PAGE PRODUITS
 /* ------- Section Vedette ------- */
 
 .vedette{
-
+    padding-bottom: 30px;
 }
 
 .vedette .conteneur{
@@ -426,8 +449,8 @@ COMPONENTS PAGE PRODUITS
 }
 
 .vedette img{
+    border: solid 5px #B291D5;
     height: 400px;
-    padding-bottom: 30px;
 }
 
 .vedette .bouton{
@@ -436,6 +459,10 @@ COMPONENTS PAGE PRODUITS
 }
 
 /* ------- Sections Des Produits ------- */
+
+.autres{
+    padding-bottom: 50px;
+}
 
 .autres .conteneur{
     display: flex;
@@ -449,8 +476,22 @@ COMPONENTS PAGE PRODUITS
     margin-bottom: 20px;
 }
 
+.autres p{
+    margin: 0;
+    padding: 10px;
+}
+
+.autres a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------
-COMPONENTS PAGE ARTICLES
+COMPONENTS PAGE ARTICLE
 ------------------------------------------------------------------------------------------------------------------ */
 
 /* ------- Section Produit ------- */
@@ -477,9 +518,9 @@ COMPONENTS PAGE ARTICLES
 }
 
 .produit article img{
-    width: 3000px;
-    height: 100%;
     border: solid 5px #B291D5;
+
+    width: 150%;
 }
 
 .produit aside{

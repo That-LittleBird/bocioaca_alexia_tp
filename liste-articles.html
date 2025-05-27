@@ -16,7 +16,6 @@ Head
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orienta&family=Oswald:wght@600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
-    <link rel="stylesheet" href="css/hover.css">
 
     <link rel="stylesheet" href="css/styles.css">
 
@@ -31,20 +30,20 @@ Header
 
 <body>
     <header>
-        <div class="wrapper">
+        <div class="wrapper" id="haut">
 
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="logo de la compagnie Denkiāto">
 
-                <p> Denkiāto </p>
+                <p class="hvr-underline-from-center"> Denkiāto </p>
             </a>
 
             <nav>
                 <ul>
-                    <li><a href="index.html"> Accueil </a></li>
-                    <li><a href="liste-articles.html"> Les Offres </a></li>
-                    <li><a href="index.html#equipe"> Équipes </a></li>
-                    <li><a href="index.html#contact"> Contact </a></li>
+                    <li><a href="index.html" class="hvr-underline-from-center"> Accueil </a></li>
+                    <li><a href="liste-articles.html" class="hvr-underline-from-center"> Les Offres </a></li>
+                    <li><a href="#equipe" class="hvr-underline-from-center"> Équipes </a></li>
+                    <li><a href="#contact" class="hvr-underline-from-center"> Contact </a></li>
                 </ul>
             </nav>
         </div>
@@ -60,7 +59,7 @@ Section Vedette
             <h2> Nos Offres </h2>
 
             <div class="conteneur">
-                <img src="images/tablette4.jpg" alt="">
+                <img src="images/tablette_agrandi.jpg" alt="Tablette avec Écran en offre">
 
                 <div class="information">
                     <h3> Tablette Inkor J4 </h3>
@@ -84,10 +83,29 @@ Autres
             <h2> Tablettes À Stylet </h2>
 
             <div class="conteneur">
-                <a href="fiche-article.html"><img src="images/tablette1.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/tablette2.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/tablette3.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/tablette4.jpg" alt=""></a>
+                <a href="fiche-article.html"><img src="images/tablette1.jpg" alt="Tablette avec Stylet">
+                    <h3> Inkor J2 </h3>
+                    <p> La base des bases </p>
+                    <p> 20.99$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/tablette2.jpg" alt="Tablette avec Stylet">
+                    <h3> Lin 56t </h3>
+                    <p> Simple à utiliser </p>
+                    <p> 32.52$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/tablette3.jpg" alt="Tablette avec Stylet">
+                    <h3 > Int 2 M </h3>
+                    <p> Petite tablette confortable et portable </p>
+                    <p> 25.99$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/tablette4.jpg" alt="Tablette avec Stylet">
+                    <h3> Inkor J4 </h3>
+                    <p> Parfait pour les débutants </p>
+                    <p> 35,12$  </p>
+                </a>
             </div>
         </div>
     </section>
@@ -97,10 +115,26 @@ Autres
             <h2> Écrans À Stylet </h2>
 
             <div class="conteneur">
-                <a href="fiche-article.html"><img src="images/ecran1.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/ecran2.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/ecran3.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/ecran4.jpg" alt=""></a>
+                <a href="fiche-article.html"><img src="images/ecran1.jpg" alt="Tablette avec Écran">
+                    <h3> Int 2 M </h3>
+                    <p> Comme vos vrai tablette </p>
+                    <p> 52.99$ </p>
+                </a>
+                <a href="fiche-article.html"><img src="images/ecran2.jpg" alt="Tablette avec Écran">
+                    <h3> Int 2 M </h3>
+                    <p> La plus grande qualité </p>
+                    <p> 230.68$ </p>
+                </a>
+                <a href="fiche-article.html"><img src="images/ecran3.jpg" alt="Tablette avec Écran">
+                    <h3> Int 2 M </h3>
+                    <p> L'efficacité dans tes mains </p>
+                    <p> 56.50$ </p>
+                </a>
+                <a href="fiche-article.html"><img src="images/ecran4.jpg" alt="Tablette avec Écran">
+                    <h3> Int 2 M </h3>
+                    <p> Agreable et compact </p>
+                    <p> 103,64$ </p>
+                </a>
             </div>
         </div>
     </section>
@@ -110,10 +144,29 @@ Autres
             <h2> Accessoires </h2>
 
             <div class="conteneur">
-                <a href="fiche-article.html"><img src="images/stylet1.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/stylet2.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/stylet3.jpg" alt=""></a>
-                <a href="fiche-article.html"><img src="images/Stylet4.jpg" alt=""></a>
+                <a href="fiche-article.html"><img src="images/stylet1.jpg" alt="Stylet">
+                    <h3> Int 2 M </h3>
+                    <p> Confortable sur tes doigts </p>
+                    <p> 10,04$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/stylet2.jpg" alt="Stylet">
+                    <h3> Int 2 M </h3>
+                    <p> Avec plusieurs boutons </p>
+                    <p> 14,99$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/stylet3.jpg" alt="Stylet">
+                    <h3> Int 2 M </h3>
+                    <p> Le plus simple </p>
+                    <p> 6,79$ </p>
+                </a>
+
+                <a href="fiche-article.html"><img src="images/Stylet4.jpg" alt="Stylet">
+                    <h3> Int 2 M </h3>
+                    <p> Favorit de nos clients </p>
+                    <p> 14,25$ </p>
+                </a>
             </div>
         </div>
     </section>
@@ -134,7 +187,7 @@ Footer
                     <li class="linkedin"><a href="https://fr.linkedin.com/"></a></li>
                 </ul>
             
-                <a href="#hero"> <span class="material-symbols-outlined"> arrow_upward </span> </a>
+                <a href="#haut"> <span class="material-symbols-outlined"> arrow_upward </span> </a>
             </nav>
             
             <p> © 2021 TIM. Tous droits réservés. </p>
