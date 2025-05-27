@@ -82,7 +82,6 @@ h5{
 header{
     background-color: #6F7292;
     color: #EBF6FF;
-    position: sticky;
     top: 0;
 }
 
@@ -167,6 +166,11 @@ h1{
     display: flex;
 }
 
+.produits .liens{
+    display: flex;
+    align-items: center;
+}
+
 .produits .conteneur{
     display: flex;
     gap: 15px;
@@ -182,10 +186,9 @@ h1{
     position: relative;
 }
 
-
-
 .produits img{
     border: solid 3px #3CA6A0;
+    width: 100%;
 }
 
 .produits .bouton{
